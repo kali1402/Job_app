@@ -19,6 +19,14 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "news",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDISr9BgYBkwr889Um4_XDZ2-Emrjbf7ho"
+        }
+      }
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     }
