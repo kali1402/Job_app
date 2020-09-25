@@ -1,7 +1,7 @@
 import React from 'react';
 import MapView from 'react-native-maps';
 
-function Map() {
+function Maps() {
 
     return (
         <MapView
@@ -22,4 +22,4 @@ function Map() {
     );
 };
 
-export default Map;
+export default Maps;
