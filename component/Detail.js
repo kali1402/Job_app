@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Header, Content, Card, CardItem, Text, Body, Left, Icon, Button } from 'native-base';
 import { StyleSheet } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import Maps from './Maps';
 
 function Detail({ job }) {
 
@@ -20,7 +21,7 @@ function Detail({ job }) {
                     </Button>
                 </Left>
                 <Body>
-                    <Text>???</Text>
+
                 </Body>
             </Header>
             <Content>
@@ -42,6 +43,7 @@ function Detail({ job }) {
                     </CardItem>
                 </Card>
             </Content>
+            <Maps address={job.MNGR_INSTT_NM} />
         </Container>
     );
 }

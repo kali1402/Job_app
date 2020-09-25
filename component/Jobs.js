@@ -20,7 +20,7 @@ function Jobs() {
         <Container>
             <Header>
                 <Body>
-                    <Title>Find your Job!</Title>
+                    <Title>일자리 구하기</Title>
                 </Body>
             </Header>
             <Content>
