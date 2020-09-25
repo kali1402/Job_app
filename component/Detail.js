@@ -43,7 +43,7 @@ function Detail({ job }) {
                     </CardItem>
                 </Card>
             </Content>
-            <Maps />
+            <Maps address={job.MNGR_INSTT_NM} />
         </Container>
     );
 }
